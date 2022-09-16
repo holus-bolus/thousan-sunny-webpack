@@ -1,0 +1,35 @@
+.testimonials {
+  padding-top: 125px;
+  padding-bottom: 150px;
+}
+
+.testimonials__heading {
+  margin-bottom: 75px;
+}
+
+.testimonials__wrapper {
+  @include flex-center;
+}
+
+.testimonials__text{
+  width: 450px;
+}
+
+.testimonials__paragraph {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.testimonials__name {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.testimonials__image {
+  width: 390px;
+}
+
