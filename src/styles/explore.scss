@@ -1,0 +1,29 @@
+.explore {
+  padding-top: 135px;
+  padding-bottom: 160px;
+}
+
+.explore__container {
+  @include flex-center;
+  gap: 100px;
+}
+
+.explore__image-wrapper {
+  width: 660px;
+}
+
+.explore__image {
+  width: 100%;
+}
+
+.explore__text-wrapper {
+  width: 450px;
+}
+
+.explore__heading {
+  margin-bottom: 40px;
+}
+
+.explore__text {
+  margin-bottom: 50px;
+}

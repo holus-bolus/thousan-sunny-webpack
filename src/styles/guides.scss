@@ -1,0 +1,33 @@
+.guides {
+  padding-top: 90px;
+  padding-bottom: 125px;
+}
+
+.guides__container {
+  @include flex-center;
+  gap: 80px;
+}
+
+.guides__text-wrapper {
+  width: 480px;
+}
+
+.guides__text {
+  margin-bottom: 35px;
+}
+
+.guides__heading {
+  margin-bottom: 30px;
+}
+
+.guides__text-wrapper {
+  margin-bottom: 50px;
+}
+
+.guides__image-wrapper {
+  width: 600px;
+}
+
+.guides__image {
+  width: 100%;
+}
