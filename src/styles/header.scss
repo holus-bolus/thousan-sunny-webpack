@@ -1,0 +1,25 @@
+.header {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+
+.header__container {
+  @include flex-center;
+}
+
+.nav-wrapper {
+  @include flex-center;
+  gap: 35px;
+}
+
+.header__list {
+  @include flex-center;
+  gap: 35px;
+}
+
+.header__link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: rgba(184, 190, 205, 1);
+}
