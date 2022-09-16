@@ -1,6 +1,10 @@
 .explore {
   padding-top: 135px;
   padding-bottom: 160px;
+  @include media-tablet {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 .explore__container {
@@ -10,10 +14,16 @@
 
 .explore__image-wrapper {
   width: 660px;
+  @include media-mobile {
+    display: none;
+  }
 }
 
 .explore__image {
   width: 100%;
+  @include media-mobile {
+    display: none;
+  }
 }
 
 .explore__text-wrapper {

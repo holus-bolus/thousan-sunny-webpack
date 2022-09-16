@@ -1,6 +1,10 @@
 .stories {
   padding-top: 150px;
   padding-bottom: 200px;
+  @include media-tablet {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 .stories__heading-wrapper {
@@ -25,6 +29,10 @@
 .stories__list {
   @include flex-center;
   gap: 25px;
+  @include media-mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .stories__item {
@@ -55,7 +63,7 @@
   margin-bottom: 35px;
 }
 
-.stories__list-link{
+.stories__list-link {
   font-size: 15px;
   font-weight: 600;
   line-height: 1.5;

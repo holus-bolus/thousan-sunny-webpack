@@ -1,6 +1,10 @@
 .guides {
   padding-top: 90px;
   padding-bottom: 125px;
+  @include media-tablet {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
 }
 
 .guides__container {
@@ -26,6 +30,9 @@
 
 .guides__image-wrapper {
   width: 600px;
+  @include media-mobile {
+    display: none;
+  }
 }
 
 .guides__image {

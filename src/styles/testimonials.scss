@@ -1,18 +1,32 @@
 .testimonials {
   padding-top: 125px;
   padding-bottom: 150px;
+  @include media-tablet {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
 }
 
 .testimonials__heading {
   margin-bottom: 75px;
+  @include media-tablet {
+    margin-bottom: 20px;
+  }
 }
 
 .testimonials__wrapper {
   @include flex-center;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-.testimonials__text{
+.testimonials__text {
   width: 450px;
+  @include media-mobile {
+    width: 90%;
+  }
 }
 
 .testimonials__paragraph {
@@ -31,5 +45,8 @@
 
 .testimonials__image {
   width: 390px;
+  @include media-mobile {
+    width: 90%;
+  }
 }
 
